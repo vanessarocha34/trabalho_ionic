@@ -1,0 +1,40 @@
+{
+  "moda": [
+    {
+      "nome": "xds",
+      "telefone": "73663535522",
+      "data_nasc": "12333",
+      "item": "blusa",
+      "preco": "35,89",
+      "endereco": "sds",
+      "id": 1
+    },
+    {
+      "nome": "fg",
+      "telefone": "",
+      "data_nasc": "rfrg",
+      "item": "dffg2344",
+      "preco": "23455",
+      "endereco": "ffrtg",
+      "id": 2
+    },
+    {
+      "nome": "vanessa rocha",
+      "telefone": "",
+      "data_nasc": "24/11/2000",
+      "item": "vestido",
+      "preco": "56,00",
+      "endereco": "são miguel",
+      "id": 3
+    },
+    {
+      "nome": "gdffd",
+      "telefone": "",
+      "data_nasc": "23456",
+      "item": "xfdg",
+      "preco": "13445",
+      "endereco": "fdg",
+      "id": 4
+    }
+  ]
+}

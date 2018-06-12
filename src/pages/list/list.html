@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Cadastro</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+ <ion-list>
+  <ion-item>
+    <ion-label floating>Nome Completo</ion-label>
+    <ion-input [(ngModel)]="user.nome" required type="text"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label floating>endereço</ion-label>
+    <ion-input [(ngModel)]="user.endereco" required type="text"></ion-input>
+   
+     <ion-item>
+    <ion-label floating>telefone</ion-label>
+    <ion-input [(ngModel)]="user.telefone" required type="text"></ion-input>
+  </ion-item>
+  </ion-item> 
+
+  <ion-item>
+    <ion-label floating>Data de Nascimento</ion-label>
+    <ion-input [(ngModel)]="user.data_nasc" required type="text"></ion-input>
+  </ion-item>
+
+   <ion-item>
+    <ion-label floating>item da loja</ion-label>
+    <ion-input [(ngModel)]="user.item" required type="text"></ion-input>
+  </ion-item>
+
+   <ion-item>
+    <ion-label floating>preço</ion-label>
+    <ion-input [(ngModel)]="user.preco" required type="text"></ion-input>
+  </ion-item>
+</ion-list>
+
+<div padding>
+  <button ion-button block (click)="Cadastrar(user)" >Salvar</button>
+
+</div>
+
+</ion-content>
